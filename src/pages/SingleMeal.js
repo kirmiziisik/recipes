@@ -162,7 +162,7 @@ const SingleMeal = () => {
           </div>
         </header>
 
-        <a href={video}>
+        <a href={video} target="_blank">
           <span className="meal-btn">Watch video</span>
         </a>
         <Link to="/" className="meal-btn">
