@@ -9,7 +9,7 @@ const MealList = () => {
     return <Loading />;
   }
   if (meals.length < 1) {
-    return <h2>no meals found</h2>;
+    return <h2 className="no-meal">No meals found 😞 </h2>;
   }
   return (
     <section className="meal-list">

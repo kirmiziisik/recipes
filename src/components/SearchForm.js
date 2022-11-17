@@ -10,12 +10,14 @@ const SearchForm = () => {
 
   return (
     <section className="search-form">
+      <img className="form-img" src="./breakfast.svg" alt="" />
       <form onSubmit={handleSubmit}>
         <label htmlFor="meal" className="search-label">
           What would you like to cook today?
         </label>
         <br />
         <input
+          autoFocus
           className="search-input"
           type="text"
           name="meal"
