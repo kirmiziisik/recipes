@@ -166,6 +166,7 @@ nav ul {
 
 .single-meal {
   background-color: aliceblue;
+  min-height: 100vh;
 }
 
 .single-meal-title {
@@ -178,7 +179,6 @@ nav ul {
 .single-meal-header {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* gap: 0.5rem; */
   padding: 2rem;
 }
 
