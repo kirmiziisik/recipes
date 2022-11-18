@@ -167,6 +167,7 @@ nav ul {
 .single-meal {
   background-color: aliceblue;
   min-height: 100vh;
+  padding: 0 4rem;
 }
 
 .single-meal-title {
