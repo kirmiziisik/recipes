@@ -201,6 +201,7 @@ nav ul {
 }
 
 .instructions-text {
+  max-width: 60rem;
   margin-top: 1rem;
   font-size: 1.8rem;
   line-height: 2rem;
