@@ -235,26 +235,53 @@ nav ul {
 
 .about-section {
   background-color: aliceblue;
-  height: 90vh;
+  min-height: calc(100vh - 7.5rem);
 }
 
 .about-title {
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
-  padding-top: 5rem;
+  padding-top: 3rem;
   color: rgb(24, 49, 113);
 }
 
 .about {
-  margin-top: 5rem;
-  padding: 6rem;
-  text-transform: uppercase;
-  font-size: 5.5rem;
+  letter-spacing: 1.4px;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  font-size: 3rem;
   text-align: center;
   color: rgb(24, 49, 113);
 }
 
+.container {
+  display: flex;
+  padding: 3rem 5rem;
+  gap: 2rem;
+}
+
+.about-section img {
+  max-height: 30rem;
+}
+
+.about-para {
+  align-self: center;
+  color: rgb(24, 49, 113);
+  font-size: 2.8rem;
+  letter-spacing: 1.3px;
+}
+
 /* ===================MEDIA QUERIES====================== */
+
+@media only screen and (max-width: 1035px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .about-section img {
+    align-self: center;
+  }
+}
 
 @media only screen and (max-width: 780px) {
   .single-meal-header {
@@ -268,6 +295,11 @@ nav ul {
 
   .ingredient-container {
     font-size: 1.8rem;
+  }
+
+  .about-para {
+    font-size: 2rem;
+    letter-spacing: 1.2px;
   }
 }
 
@@ -295,16 +327,16 @@ nav ul {
     flex-direction: column;
   }
 
-  .about {
-    font-size: 3.5rem;
-  }
-
   .single-meal-img {
     height: 30rem;
   }
 
   .ingredient-container {
     font-size: 1.8rem;
+  }
+
+  .about-section img {
+    max-height: 24rem;
   }
 }
 
@@ -322,5 +354,9 @@ nav ul {
   nav ul {
     gap: 2rem;
     font-size: 1.6rem;
+  }
+
+  .about-section img {
+    max-height: 18rem;
   }
 }
