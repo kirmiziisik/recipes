@@ -1,1 +1,1 @@
-Demo: https://kirmiziisik-react-recipes.netlify.app
+Demo: https://sezerusak-react-recipes.netlify.app
